@@ -58,9 +58,32 @@ header {
     justify-content: center;
 }
 
+.social-media {
+    position: fixed;
+    bottom: 30px;
+    left: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    font-size: 30px;
+    color: rgba(0, 0, 0, .5);
+    text-align: center;
+}
+
+.social-media .item {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+
+.social-media .inner:hover {
+    font-size: 33px;
+}
+
 /*** Screen Mobile ***/
 
-@media (max-width: 767px) {
+@media (max-width: 1000px) {
     .nav-desktop {
         display: none;
     }
