@@ -1,6 +1,5 @@
 /* * * * * Global * * * * */
 
-
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700,900');
 @import url('https://fonts.googleapis.com/css?family=Kirang+Haerang');
 
@@ -13,7 +12,7 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
- /* ===== Fixed Header ===== */
+/* ===== Fixed Header ===== */
 
 header {
     width: 100%;
@@ -107,7 +106,7 @@ header {
 }
 
 .book-btn:hover {
-    background-color: rgba(255,255,255, .2);
+    background-color: rgba(255, 255, 255, .2);
 }
 
 /*** About ***/
@@ -119,7 +118,11 @@ header {
 
 .about img {
     float: left;
-    margin-right: 40px;
+    margin-right: 60px;
+    width: 350px;
+    height: 500px;
+    object-position: center;
+    object-fit: cover;
 }
 
 .about-text {
@@ -136,9 +139,18 @@ header {
 }
 
 .about-text h2 {
+    font-family: 'Kirang Haerang', cursive;
+    font-size: 32px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    line-height: 30px;
     display: block;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
+}
+
+.about-text h2 span {
+    font-size: 50px;
 }
 
 .icon {
@@ -151,9 +163,9 @@ header {
 /*** Portfolio ***/
 
 .portfolio {
-    display: flex;  
+    display: flex;
     align-items: center;
-    justify-content: center; 
+    justify-content: center;
 }
 
 .portfolio img {
