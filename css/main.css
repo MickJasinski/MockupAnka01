@@ -58,6 +58,14 @@ header {
     justify-content: center;
 }
 
+/*** Screen Mobile ***/
+
+@media (max-width: 767px) {
+    .nav-desktop {
+        display: none;
+    }
+}
+
 /* * * * * Pages * * * * */
 
 /*** Home ***/
@@ -108,6 +116,10 @@ header {
 .book-btn:hover {
     background-color: rgba(255, 255, 255, .2);
 }
+
+/*** Home mobile ***/
+
+@media (max-width: 767px) {}
 
 /*** About ***/
 
