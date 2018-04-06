@@ -1,1 +1,1 @@
-mickjasinski.github.io/MockupAnka01/
+https://mickjasinski.github.io/MockupAnka01/
